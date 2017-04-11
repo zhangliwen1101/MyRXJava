@@ -1,7 +1,8 @@
 # RXJava
-RXJava简单使用，项目集成lambda和ButterKnife
 
-/**
+```
+       RXJava简单使用，项目集成lambda和ButterKnife
+       /**
          * 完整引用
          */
         //        //被观察着
@@ -102,3 +103,4 @@ RXJava简单使用，项目集成lambda和ButterKnife
                 .map(s -> s.length())
                 .map(i -> Integer.toString(i))
                 .subscribe(s -> text.setText(s));
+```
